@@ -1,0 +1,23 @@
+body{
+    background-color: black;
+}
+
+.right-bottom {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding: 20px;
+    font-size: 18px;
+}
+
+.left-bottom {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding: 20px;
+    font-size: 18px;
+}
+
+.max-w-sm {
+    max-width: 16rem!important;
+}

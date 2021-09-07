@@ -1,0 +1,104 @@
+[settings]
+    arch=x86_64
+    build_type=Release
+    compiler=Visual Studio
+    compiler.runtime=MD
+    compiler.version=15
+    os=Windows
+
+[requires]
+    civetweb/1.Y.Z
+    cjson/1.Y.Z
+    log.c/cci.20200620
+
+[options]
+
+
+[full_settings]
+    arch=x86_64
+    arch_build=x86_64
+    build_type=Release
+    compiler=Visual Studio
+    compiler.runtime=MD
+    compiler.version=15
+    os=Windows
+    os_build=Windows
+
+[full_requires]
+    civetweb/1.14:90f96945de48b1760a922465913b913664b25a99
+    cjson/1.7.14:1847758cc020b185f391ef4c213a79a88d3f6bc7
+    log.c/cci.20200620:4fa84a55b18883f93b7f256181f8433f4080e0cf
+    openssl/1.1.1k:6cc50b139b9c3d27b3e9042d5f5372d327b3a9f7
+
+[full_options]
+    civetweb:shared=False
+    civetweb:ssl_dynamic_loading=False
+    civetweb:with_cxx=True
+    civetweb:with_ipv6=True
+    civetweb:with_ssl=True
+    civetweb:with_websockets=True
+    cjson:shared=False
+    cjson:use_locales=True
+    cjson:utils=False
+    log.c:color=True
+    log.c:shared=False
+    openssl:386=False
+    openssl:capieng_dialog=False
+    openssl:enable_capieng=False
+    openssl:no_aria=False
+    openssl:no_asm=False
+    openssl:no_async=False
+    openssl:no_bf=False
+    openssl:no_blake2=False
+    openssl:no_camellia=False
+    openssl:no_cast=False
+    openssl:no_chacha=False
+    openssl:no_cms=False
+    openssl:no_comp=False
+    openssl:no_ct=False
+    openssl:no_deprecated=False
+    openssl:no_des=False
+    openssl:no_dgram=False
+    openssl:no_dh=False
+    openssl:no_dsa=False
+    openssl:no_dso=False
+    openssl:no_ec=False
+    openssl:no_ecdh=False
+    openssl:no_ecdsa=False
+    openssl:no_engine=False
+    openssl:no_filenames=False
+    openssl:no_gost=False
+    openssl:no_hmac=False
+    openssl:no_idea=False
+    openssl:no_md4=False
+    openssl:no_md5=False
+    openssl:no_mdc2=False
+    openssl:no_ocsp=False
+    openssl:no_pinshared=False
+    openssl:no_rc2=False
+    openssl:no_rfc3779=False
+    openssl:no_rmd160=False
+    openssl:no_rsa=False
+    openssl:no_seed=False
+    openssl:no_sha=False
+    openssl:no_sm2=False
+    openssl:no_sm3=False
+    openssl:no_sm4=False
+    openssl:no_sock=False
+    openssl:no_srp=False
+    openssl:no_srtp=False
+    openssl:no_sse2=False
+    openssl:no_ssl=False
+    openssl:no_ssl3=False
+    openssl:no_threads=False
+    openssl:no_tls1=False
+    openssl:no_ts=False
+    openssl:no_whirlpool=False
+    openssl:openssldir=None
+    openssl:shared=False
+
+[recipe_hash]
+
+
+[env]
+    CONAN_DISABLE_CHECK_COMPILER=True
